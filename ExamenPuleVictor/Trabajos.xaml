@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenPuleVictor.Trabajos"
+             Title="Trabajos">
+    <VerticalStackLayout 
+Padding="30,0"
+Spacing="10">
+
+        <Label >id: Trabajo</Label>
+        <Entry x:Name="txtIdTrabajo" Text=""></Entry>
+        <Label >Nombre del Trabajo</Label>
+        <Entry x:Name="txtTrabajo" Text=""></Entry>
+        <Button x:Name="cmdCrearTra" Text="Crear" Clicked="cmdCrearTra_Clicked"></Button>
+        <Button x:Name="cmdLeerTra" Text="Leer" Clicked="cmdLeerTra_Clicked"></Button>
+        <Button x:Name="cmdActualizarTra" Text="Actualizar" Clicked="cmdActualizarTra_Clicked"></Button>
+        <Button x:Name="cmdEliminarTra" Text="Eliminar" Clicked="cmdEliminarTra_Clicked"></Button>
+        <Button x:Name="cmdClientes" Text="Pagina de Clientes" Clicked="cmdClientes_Clicked"></Button>
+        <Button x:Name="cmdMenu" Text="Ir al Menú Principal" Clicked="cmdMenu_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>

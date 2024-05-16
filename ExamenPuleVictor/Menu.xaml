@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenPuleVictor.Menu"
+             Title="Menu">
+    <VerticalStackLayout
+Padding="30,0"
+Spacing="25">
+        <Label
+    Text="UNIVERSIDAD TÉCNICA DEL NORTE" 
+    HorizontalOptions="Center"
+    FontSize="Large"
+    FontAttributes="Bold"        
+    />
+
+        <Label 
+     Text="APLICACIONES MÓVILES" 
+     HorizontalOptions="Center"
+     FontSize="Large"
+     FontAttributes="Bold"       
+     />
+        <Label 
+    Text="Examen CRUD de Clientes y Trabajos" 
+    HorizontalOptions="Center" 
+    />
+        <Label Text="Realizado por: Víctor Pule"></Label>
+        <Label Text="Presione un botón para ir al CRUD que desee"></Label>
+        <Button x:Name="cmdClientes" Text="Clientes" Clicked="cmdClientes_Clicked"></Button>
+        <Button x:Name="cmdTrabajos" Text="Trabajos" Clicked="cmdTrabajos_Clicked"></Button>
+
+    </VerticalStackLayout>
+</ContentPage>

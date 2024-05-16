@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenPuleVictor.Clientes"
+             Title="Clientes">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="10">
+            <Label>Id: Cliente</Label>
+            <Entry x:Name="txtIdCliente"></Entry>
+            <Label>Nombre Cliente</Label>
+            <Entry x:Name="txtNombreCliente"></Entry>
+            <Label>Apellido Cliente</Label>
+            <Entry x:Name="txtApellidoCliente"></Entry>
+            <Label>Dirección</Label>
+            <Entry x:Name="txtDireccion"></Entry>
+            <Label>Correo Electrónico</Label>
+            <Entry x:Name="txtCorreoElectronico"></Entry>
+            <Label>Teléfono</Label>
+            <Entry x:Name="txtTelefono"></Entry>
+            <Label>ID Trabajo</Label>
+            <Entry x:Name="txtTrabajoId"></Entry>
+
+            <Button x:Name="cmdCreateClie" Text="Insertar" Clicked="cmdCreateClie_Clicked"></Button>
+            <Button x:Name="cmdLeerClie" Text="Leer" Clicked="cmdLeerClie_Clicked"></Button>
+            <Button x:Name="cmdUpdateClie" Text="Actualizar" Clicked="cmdUpdateClie_Clicked"></Button>
+            <Button x:Name="cmdDeleteClie" Text="Eliminar" Clicked="cmdDeleteClie_Clicked"></Button>
+
+            <Button x:Name="cmdRegresar" Text="Pagina de Clasificaciones" Clicked="cmdRegresar_Clicked"></Button>
+            <Button x:Name="cmdMenu" Text="Ir al Menú Principal" Clicked="cmdMenu_Clicked"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
