@@ -25,7 +25,7 @@
             <Button x:Name="cmdUpdateClie" Text="Actualizar" Clicked="cmdUpdateClie_Clicked"></Button>
             <Button x:Name="cmdDeleteClie" Text="Eliminar" Clicked="cmdDeleteClie_Clicked"></Button>
 
-            <Button x:Name="cmdRegresar" Text="Pagina de Clasificaciones" Clicked="cmdRegresar_Clicked"></Button>
+            <Button x:Name="cmdRegresar" Text="Pagina de Trabajos" Clicked="cmdRegresar_Clicked"></Button>
             <Button x:Name="cmdMenu" Text="Ir al Menú Principal" Clicked="cmdMenu_Clicked"></Button>
         </VerticalStackLayout>
     </ScrollView>
